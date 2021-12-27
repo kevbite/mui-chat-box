@@ -1,7 +1,8 @@
 {
   "name": "mui-chat-box",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "MUI Chat Box Component",
+  "keywords": ["chat", "chat box", "mui", "react", "component"],
   "repository": {
     "type": "git",
     "url": "https://github.com/kevbite/mui-chat-box"
