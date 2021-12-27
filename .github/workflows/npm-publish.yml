@@ -8,15 +8,6 @@ on:
     types: [created]
 
 jobs:
-  build:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v2
-      - uses: actions/setup-node@v2
-        with:
-          node-version: 16
-      - run: npm ci --workspaces
-
   publish-npm:
     needs: build
     runs-on: ubuntu-latest
@@ -26,7 +17,8 @@ jobs:
         with:
           node-version: 16
           registry-url: https://registry.npmjs.org/
-      - run: npm ci --workspaces
+      - run: npm ci --workspace mui-chat-box
+      - run: npm run build --workspace mui-chat-box
       - run: npm publish --workspace mui-chat-box
         env:
           NODE_AUTH_TOKEN: ${{secrets.npm_token}}
