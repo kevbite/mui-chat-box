@@ -4,7 +4,6 @@ React component for creating a simple chat box.
 
 [![license](https://img.shields.io/badge/license-MIT-blue.svg)](hhttps://github.com/kevbite/mui-chat-box/blob/HEAD/LICENSE)
 [![npm latest package](https://img.shields.io/npm/v/mui-chat-box/latest.svg)](https://www.npmjs.com/package/mui-chat-box)
-[![npm next package](https://img.shields.io/npm/v/mui-chat-box/next.svg)](https://www.npmjs.com/package/mui-chat-box)
 [![npm downloads](https://img.shields.io/npm/dm/mui-chat-box.svg)](https://www.npmjs.com/package/mui-chat-box)
 
 [Demo](https://kevsoft.net/mui-chat-box/)
