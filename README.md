@@ -2,6 +2,7 @@
 
 React component for creating a simple chat box.
 
+[Demo](https://kevsoft.net/mui-chat-box/)
 [![mui-chat-box preview](/preview.gif)](https://kevsoft.net/mui-chat-box/)
 
 ## Getting Started
@@ -21,15 +22,15 @@ import { Avatar } from "@mui/material";
 import { ChatBox, ReceiverMessage, SenderMessage } from "mui-chat-box";
 
 export const App = () => (<ChatBox>
-    <ReceiverMessage key={i} avatar={<Avatar src="/static/images/avatar/1.jpg" />}>
-        Hello how are you?
-    </ReceiverMessage>
-    <SenderMessage key={i} avatar={<Avatar src="/static/images/avatar/2.jpg" />}>
-        I'm good thanks you?
-    </SenderMessage>
-    <ReceiverMessage key={i} avatar={<Avatar src="/static/images/avatar/1.jpg" />}>
-       I'm good too!
-    </ReceiverMessage>
+  <ReceiverMessage avatar={<Avatar>KS</Avatar>}>
+    Hello how are you?
+  </ReceiverMessage>
+  <SenderMessage avatar={<Avatar>NA</Avatar>}>
+    I'm good thanks you?
+  </SenderMessage>
+  <ReceiverMessage avatar={<Avatar>KS</Avatar>}>
+    I'm good too!
+  </ReceiverMessage>
 </ChatBox>)
 ```
 
