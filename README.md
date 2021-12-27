@@ -36,7 +36,7 @@ export const App = () => (<ChatBox>
 
 ## Samples
 
-The [react-example](packages/app/react-example) folder contains an example of how you could use the mui-chat-box.
+The [react-example](packages/apps/react-example) folder contains an example of how you could use the mui-chat-box.
 
 ## Contributing
 
