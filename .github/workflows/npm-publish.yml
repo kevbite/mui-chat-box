@@ -19,6 +19,7 @@ jobs:
           registry-url: https://registry.npmjs.org/
       - run: npm ci --workspace mui-chat-box
       - run: npm run build --workspace mui-chat-box
+      - run: cp README.md packages/libs/mui-chat-box
       - run: npm publish --workspace mui-chat-box
         env:
           NODE_AUTH_TOKEN: ${{secrets.npm_token}}
